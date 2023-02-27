@@ -37,7 +37,7 @@ const LIMIT_AI_IMAGE_COUNT = 5;
 const LIMIT_COUNT_RESPONSE = '对不起，因为ChatGPT调用收费，您的免费使用额度已用完~'
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 });
 
 const openai = new OpenAIApi(configuration);
