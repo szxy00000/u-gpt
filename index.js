@@ -37,10 +37,13 @@ const LIMIT_AI_IMAGE_COUNT = 5;
 const LIMIT_COUNT_RESPONSE = '对不起，因为ChatGPT调用收费，您的免费使用额度已用完~'
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 });
 
 const openai = new OpenAIApi(configuration);
+// getAIResponse('嗨').then(res => {
+//   console.log(res)
+// })
 
 async function buildCtxPrompt({ FromUserName }) {
   // 获取最近对话
